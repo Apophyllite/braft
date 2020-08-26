@@ -15,10 +15,9 @@ bind(
 
 http_archive(
     name = "com_google_protobuf",
-    strip_prefix = "protobuf-3.6.1.3",
-    sha256 = "9510dd2afc29e7245e9e884336f848c8a6600a14ae726adb6befdb4f786f0be2",
+    strip_prefix = "protobuf-3.9.0",
     type = "zip",
-    url = "https://github.com/protocolbuffers/protobuf/archive/v3.6.1.3.zip",
+    url = "https://github.com/protocolbuffers/protobuf/archive/v3.9.0.zip",
 )
 
 http_archive(
@@ -53,8 +52,8 @@ http_archive(
 
 http_archive(
     name = "com_github_brpc_brpc",
-    strip_prefix = "incubator-brpc-2b748f82c3447196c8ce372733e5af8f8d76cef5",
-    url = "https://github.com/apache/incubator-brpc/archive/2b748f82c3447196c8ce372733e5af8f8d76cef5.tar.gz",
+    strip_prefix = "incubator-brpc-41231a6c6ac726d9a80600b77f2f8dc83777bd69",
+    url = "https://github.com/fesun/incubator-brpc/commit/41231a6c6ac726d9a80600b77f2f8dc83777bd69",
 )
 
 bind(
