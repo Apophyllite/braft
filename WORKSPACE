@@ -52,8 +52,8 @@ http_archive(
 
 http_archive(
     name = "com_github_brpc_brpc",
-    strip_prefix = "incubator-brpc-41231a6c6ac726d9a80600b77f2f8dc83777bd69",
-    url = "https://github.com/fesun/incubator-brpc/commit/41231a6c6ac726d9a80600b77f2f8dc83777bd69.tar.gz",
+    strip_prefix = "incubator-brpc-2913a5f461db8547554695faefb94ca7fec4fd4c",
+    url = "https://github.com/fesun/incubator-brpc/commit/2913a5f461db8547554695faefb94ca7fec4fd4c.tar.gz",
 )
 
 bind(
